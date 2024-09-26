@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/javinha.js">
+
+    </script>
+</head>
+<body>
+    <form>
+        <img src="img/download.png" alt="Estacione aqui">
+        <H1>Estacionamento</H1>
+        Digite seu Nome<br>
+        <input type="text" id="cxnome"><br>
+        Digite a Placa<br>
+        <input type="text" id="cxplaca"><br>
+        Digite o Modelo do Carro<br>
+        <input type="text" id="cxcarro"><br>
+        Digite quantos dias<br>
+        <input type="number" id="cxdias"><br>
+        Valor da Diaria<br>
+        <input type="number" id="cxdiaria"><br><br>
+        Bruto: <input type="text" id="cxbruto" disabled><br><br>
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="button" onclick="limpar()">Limpar</button>
+        <button type="button" onclick="sair()">Sair</button>
+    </form>
+
+    <h3>Resultados:</h3>
+    <p id="resultados"></p>
+
+</body>
+</html>
